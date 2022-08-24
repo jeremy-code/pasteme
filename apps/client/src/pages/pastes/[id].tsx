@@ -27,7 +27,7 @@ const dev = process.env.NODE_ENV !== "production";
 
 export const API_BASE_URL = dev
   ? "http://localhost:8787"
-  : "https://your_deployment.server.com";
+  : "https://pasteme-functions.jeremynguyen.workers.dev";
 
 export async function getStaticPaths() {
   const res = await fetch(`${API_BASE_URL}/pastes`);
