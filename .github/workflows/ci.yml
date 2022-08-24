@@ -39,4 +39,7 @@ jobs:
         uses: cloudflare/wrangler-action@2.0.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
-          workingDirectory: 'apps/functions'
+          workingDirectory: "apps/functions"
+          wranglerVersion: "0.0.0-7c228171"
+          preCommands: |
+            npm install

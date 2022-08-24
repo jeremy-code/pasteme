@@ -3,7 +3,12 @@ account_id = "7dc0feb1df1ba5d6a9c99e160d1c8f57"
 compatibility_date = "2022-08-24"
 main = "./src/index.ts"
 
-[[kv_namespaces]]
+[[ kv_namespaces ]]
 binding = "PASTES"
 id = "982e80104a1e489e9e52ccd28c7657fb"
 preview_id = "ddd3fa4c3fd04fc5bf43908c38ed93b5"
+
+[[ d1_databases ]]
+binding = "DB"
+database_name = "PASTES_DB"
+database_id = "e10ac229-c146-45b5-8775-30a75d22e13f"

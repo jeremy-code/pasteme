@@ -3,17 +3,21 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "wrangler dev",
+    "dev": "wrangler dev --local",
     "build": "wrangler publish --dry-run --outdir=dist",
     "publish": "wrangler publish",
     "lint": "eslint --ignore-path .gitignore '**/*.{ts,js}'"
   },
   "devDependencies": {
+    "@cloudflare/d1": "^1.4.1",
     "@cloudflare/workers-types": "^3.14.1",
+    "better-sqlite3": "^7.6.2",
     "eslint": "^8.22.0",
     "tsconfig": "*",
     "typescript": "^4.7.4",
-    "wrangler": "^2.0.27"
+    "wrangler": "d1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "itty-router": "^2.6.1"
+  }
 }
