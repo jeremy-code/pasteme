@@ -1,0 +1,19 @@
+{
+  "name": "@pasteme/functions",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "wrangler publish --dry-run --outdir=dist",
+    "publish": "wrangler publish",
+    "lint": "eslint --ignore-path .gitignore '**/*.{ts,js}'"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.14.1",
+    "eslint": "^8.22.0",
+    "tsconfig": "*",
+    "typescript": "^4.7.4",
+    "wrangler": "^2.0.27"
+  },
+  "dependencies": {}
+}
