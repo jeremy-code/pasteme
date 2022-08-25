@@ -21,9 +21,5 @@
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
-  "packageManager": "yarn@2.4.3",
-  "dependencies": {
-    "itty-router": "^2.6.1",
-    "react-icons": "^4.4.0"
-  }
+  "packageManager": "yarn@1.22.19"
 }
